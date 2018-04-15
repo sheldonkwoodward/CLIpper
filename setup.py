@@ -1,17 +1,20 @@
 # sheldon woodward
 # 4/15/18
 
+"""Setup file."""
+
 
 from setuptools import setup
 
-from clipper import __version__
+from PACKAGE_NAME import __version__
 
-setup(name='clipper',
+
+setup(name='PACKAGE_NAME',
       version=__version__,
-      packages=['clipper'],
+      packages=['PACKAGE_NAME'],
       entry_points={
           'console_scripts': [
-              'clipper = clipper.__main__:main'
+              'PACKAGE_NAME = PACKAGE_NAME.__main__:main'
           ]
       },
       )
