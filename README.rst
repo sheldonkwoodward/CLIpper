@@ -5,6 +5,8 @@ A bare-bones command line program.
 Installation
 ------------
 Before installing your CLI, change ``PACKAGE_NAME`` to the name of your package in the following locations:
+
+- ./README.rst
 - ./setup.py
 - ./PACKAGE_NAME
 - ./PACKAGE_NAME/__init__.py
