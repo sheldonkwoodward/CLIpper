@@ -6,10 +6,10 @@ Installation
 ------------
 Before installing your CLI, change ``PACKAGE_NAME`` to the name of your package in the following locations:
 
-- ./README.rst
-- ./setup.py
-- ./PACKAGE_NAME
-- ./PACKAGE_NAME/__init__.py
+- ``./README.rst``
+- ``./setup.py``
+- ``./PACKAGE_NAME``
+- ``./PACKAGE_NAME/__init__.py``
 
 To install your CLI package, run the following command:
 ::
