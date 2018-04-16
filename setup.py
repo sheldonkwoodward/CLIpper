@@ -21,11 +21,11 @@ setup(name='PACKAGE_NAME',
       version=__version__,
       description='A bare-bones command line program.',
       long_description=long_description,
-      packages=['PACKAGE_NAME'],
+      packages=['PACKAGE_NAME', 'PACKAGE_NAME/commands'],
       install_requires=install_requires,
       entry_points={
           'console_scripts': [
-              'PACKAGE_NAME = PACKAGE_NAME.__main__'
+              'PACKAGE_NAME = PACKAGE_NAME.__main__:main'
           ]
       },
       license='MIT',

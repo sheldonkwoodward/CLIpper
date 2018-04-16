@@ -8,7 +8,7 @@ command structure while clint offers great user interaction features such as col
 
 Installation
 ------------
-Before installing your CLI, change ``PACKAGE_NAME`` to the name of your package in the following locations:
+Before installing your CLI, change ``PACKAGE_NAME`` to the name of your package in the following files and locations:
 
 - ``./README.rst``
 - ``./setup.py``
