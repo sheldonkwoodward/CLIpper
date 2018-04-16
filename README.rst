@@ -27,13 +27,10 @@ Adding commands to clipper is simple. Command modules are added to the commands 
 __main__.
 
 Create a command
-^^^^^^^^^^^^^^^^
-Create a command module in ``./PACKAGE_NAME/commands/`` and import click.
+  Create a command module in ``./PACKAGE_NAME/commands/`` and import click.
 
 Add to the commands package
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Add ``from .MODULE_NAME import *`` to ``./PACKAGE_NAME/commands/__init__.py``.
+  Add ``from .MODULE_NAME import *`` to ``./PACKAGE_NAME/commands/__init__.py``.
 
 Add command to to __main__
-^^^^^^^^^^^^^^^^^^^^^^^^^^
-Add ``main.add_command(MODULE_NAME)`` to ``./PACKAGE_NAME/__main__.py``.
+  Add ``main.add_command(MODULE_NAME)`` to ``./PACKAGE_NAME/__main__.py``.
