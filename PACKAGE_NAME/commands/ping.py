@@ -5,8 +5,9 @@
 
 
 import click
+from clint.textui import puts, colored
 
 
-@click.group()
+@click.command()
 def ping():
-    click.echo('pong')
+    puts(colored.red('pong'))
