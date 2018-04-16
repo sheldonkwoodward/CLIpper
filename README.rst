@@ -8,7 +8,7 @@ Before installing your CLI, change ``PACKAGE_NAME`` to the name of your package 
 
 - ``./README.rst``
 - ``./setup.py``
-- ``./PACKAGE_NAME``
+- ``./PACKAGE_NAME/``
 - ``./PACKAGE_NAME/__init__.py``
 
 To install your CLI package, run the following command:
@@ -20,3 +20,9 @@ If you want changes to be applied live during development, run the following com
 ::
 
   $ pip install -e .
+
+Adding Commands
+---------------
+Adding commands to clipper is simple. Create a command module in ``./PACKAGE_NAME/commands/`` and import click, then add
+``from .MODULE_NAME import *`` to ``./PACKAGE_NAME/commands/__init__.py``. Lastly, add ``main.add_command(MODULE_NAME)``
+to ``./PACKAGE_NAME/PACKAGE_NAME.py``.

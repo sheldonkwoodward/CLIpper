@@ -25,7 +25,7 @@ setup(name='PACKAGE_NAME',
       install_requires=install_requires,
       entry_points={
           'console_scripts': [
-              'PACKAGE_NAME = PACKAGE_NAME.__main__:main'
+              'PACKAGE_NAME = PACKAGE_NAME.__main__'
           ]
       },
       license='MIT',
