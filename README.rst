@@ -1,6 +1,7 @@
 clipper
 =======
-A bare-bones command line program implementing the click and clint package.
+clipper is a bare-bones command line program implementing the click and clint package. It provides a basis for new
+CLIs making it quick and easy to get it up and running.
 
 clipper uses both click and clint to get the most out of your CLI. click offers useful features when creating your
 command structure while clint offers great user interaction features such as colored text and piping.
@@ -50,3 +51,9 @@ Add to the commands package
 Add command to to __main__
   Add ``main.add_command(MODULE_NAME)`` to ``./PACKAGE_NAME/__main__.py``.
 
+Running Commands
+----------------
+After installing your CLI with setuptools, you can execute commands from your shell:
+::
+
+  $ PACKAGE_NAME ping
