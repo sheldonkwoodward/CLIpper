@@ -37,6 +37,8 @@ Commands modules are added to ``./PACKAGE_NAME/commands/``. Here is a sample com
   def ping():
     puts(colored.red('pong'))
 
+Documentation for `click <http://click.pocoo.org/6/>`__ and `clint <https://pypi.org/project/clint/>`__.
+
 Making Commands Executable
 --------------------------
 Making commands executable in clipper is simple. Command modules are added to the commands folder and then imported to
